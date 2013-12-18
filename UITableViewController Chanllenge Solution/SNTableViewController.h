@@ -1,5 +1,5 @@
 //
-//  SNViewController.h
+//  SNTableViewController.h
 //  UITableViewController Chanllenge Solution
 //
 //  Created by Nicolas Santana on 12/17/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SNViewController : UIViewController
+@interface SNTableViewController : UITableViewController
 
 @end

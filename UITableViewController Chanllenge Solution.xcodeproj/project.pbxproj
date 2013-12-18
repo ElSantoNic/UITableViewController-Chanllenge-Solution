@@ -14,13 +14,13 @@
 		04CA1B3D1861562400EFD0A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA1B3C1861562400EFD0A3 /* main.m */; };
 		04CA1B411861562400EFD0A3 /* SNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA1B401861562400EFD0A3 /* SNAppDelegate.m */; };
 		04CA1B441861562400EFD0A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CA1B421861562400EFD0A3 /* Main.storyboard */; };
-		04CA1B471861562400EFD0A3 /* SNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA1B461861562400EFD0A3 /* SNViewController.m */; };
 		04CA1B491861562400EFD0A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CA1B481861562400EFD0A3 /* Images.xcassets */; };
 		04CA1B501861562400EFD0A3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CA1B4F1861562400EFD0A3 /* XCTest.framework */; };
 		04CA1B511861562400EFD0A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CA1B301861562400EFD0A3 /* Foundation.framework */; };
 		04CA1B521861562400EFD0A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CA1B341861562400EFD0A3 /* UIKit.framework */; };
 		04CA1B5A1861562400EFD0A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04CA1B581861562400EFD0A3 /* InfoPlist.strings */; };
 		04CA1B5C1861562400EFD0A3 /* UITableViewController_Chanllenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA1B5B1861562400EFD0A3 /* UITableViewController_Chanllenge_SolutionTests.m */; };
+		04CA1B6718615AEB00EFD0A3 /* SNTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CA1B6618615AEB00EFD0A3 /* SNTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		04CA1B3F1861562400EFD0A3 /* SNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNAppDelegate.h; sourceTree = "<group>"; };
 		04CA1B401861562400EFD0A3 /* SNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNAppDelegate.m; sourceTree = "<group>"; };
 		04CA1B431861562400EFD0A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04CA1B451861562400EFD0A3 /* SNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNViewController.h; sourceTree = "<group>"; };
-		04CA1B461861562400EFD0A3 /* SNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNViewController.m; sourceTree = "<group>"; };
 		04CA1B481861562400EFD0A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04CA1B4E1861562400EFD0A3 /* UITableViewController Chanllenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Chanllenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CA1B4F1861562400EFD0A3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		04CA1B571861562400EFD0A3 /* UITableViewController Chanllenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Chanllenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		04CA1B591861562400EFD0A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		04CA1B5B1861562400EFD0A3 /* UITableViewController_Chanllenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Chanllenge_SolutionTests.m; sourceTree = "<group>"; };
+		04CA1B6518615AEB00EFD0A3 /* SNTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNTableViewController.h; sourceTree = "<group>"; };
+		04CA1B6618615AEB00EFD0A3 /* SNTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				04CA1B3F1861562400EFD0A3 /* SNAppDelegate.h */,
 				04CA1B401861562400EFD0A3 /* SNAppDelegate.m */,
 				04CA1B421861562400EFD0A3 /* Main.storyboard */,
-				04CA1B451861562400EFD0A3 /* SNViewController.h */,
-				04CA1B461861562400EFD0A3 /* SNViewController.m */,
+				04CA1B6518615AEB00EFD0A3 /* SNTableViewController.h */,
+				04CA1B6618615AEB00EFD0A3 /* SNTableViewController.m */,
 				04CA1B481861562400EFD0A3 /* Images.xcassets */,
 				04CA1B371861562400EFD0A3 /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CA1B6718615AEB00EFD0A3 /* SNTableViewController.m in Sources */,
 				04CA1B3D1861562400EFD0A3 /* main.m in Sources */,
-				04CA1B471861562400EFD0A3 /* SNViewController.m in Sources */,
 				04CA1B411861562400EFD0A3 /* SNAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
